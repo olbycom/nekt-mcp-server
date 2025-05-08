@@ -1,0 +1,13 @@
+[project]
+name = "nekt-mcp-server"
+version = "0.1.0"
+description = "Nekt MCP Server"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.12",
+    "fastmcp>=2.2.10",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.7.1",
+    "uvicorn>=0.34.2",
+]
